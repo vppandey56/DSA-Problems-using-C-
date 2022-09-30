@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void colSum(int arr[4][2],int row,int col){
+void RowSum(int arr[4][2],int row,int col){
     
     for(int i=0;i<row;i++){
         
@@ -22,7 +22,7 @@ int main()
     int arr[4][2]={{2,3},{4,5},{6,7},{8,9}};
     
     
-    colSum(arr,4,2);
+    RowSum(arr,4,2);
 
     return 0;
 }
