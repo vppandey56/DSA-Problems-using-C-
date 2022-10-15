@@ -1,0 +1,41 @@
+//find fixed point in a sorted array.
+//input-{-10,-5,0,3,7}
+//output- 3
+
+
+#include <iostream>
+#include <algorithm>
+
+using namespace std;
+int Binarysearch(int arr[],int n){
+    int start=0,end=n-1,mid=(start+end)/2;
+    
+    while(start<=end){
+        if(arr[mid]==mid){
+            
+            return mid;
+            
+        }
+        else if(arr[mid]<mid){
+            start=mid+1;
+            
+        }
+        else{
+            end=mid-1;
+        }
+        mid=(start+end)/2;
+        
+    }
+    return -1;
+} 
+
+int main()
+{
+    int arr[]={-10,-5,0,3,7};
+    int n=5;
+
+    cout<<Binarysearch(arr,n);
+    
+
+    return 0;
+}
