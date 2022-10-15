@@ -4,7 +4,7 @@ Array is always increasing or decreasing ordered
 
 */
 
-/*
+
 //find the target index with the help of Binary Binarysearch
 
 
@@ -41,4 +41,4 @@ int main()
     return 0;
 }
 
-*/
+
